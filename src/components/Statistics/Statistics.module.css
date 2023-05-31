@@ -1,0 +1,41 @@
+.stat__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.label,
+.percentage {
+    display: block;
+}
+
+.statList {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    padding: 25px;
+    color: #fff;
+
+}
+
+.item-1 {
+    background-color: #54C1F7;
+}
+
+.item-2 {
+    background-color: #A43CF3;
+}
+
+.item-3 {
+    background-color: #E84C66;
+}
+
+.item-4 {
+    background-color: #21BFBF;
+}
+
+.item:last-child {
+    display: none;
+}
