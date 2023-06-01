@@ -4,7 +4,25 @@
     width: 500px;
 
 }
+table{
+    width:100%;
+    border: 1px solid #C9CBCE;
+}
 
 td {
     padding: 10px;
+    color: #67686a;
+    border: 1px solid #04D9D9  ;
+}
+
+th {
+    min-width: 175px;
+    padding: 10px;
+    background-color: #00BCD5;
+    color: #DBFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+tr:nth-child(2n) {
+	background-color:#ECF1F3;
 }
