@@ -35,7 +35,7 @@ const transactionsData=transactions.map(item=>({
         textAlign: 'center',
       }}
     >
-      <Profile
+      <Profile 
         username={user.username}
         tag={user.tag}
         location={user.location}
