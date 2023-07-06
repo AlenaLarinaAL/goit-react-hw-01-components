@@ -1,12 +1,13 @@
 import { Profile } from './Profile/Profile';
-import user from '../components/Profile/user.json';
 import { Statistics } from './Statistics/Statistics';
 import { Section } from './Section/Section';
-import data from './Statistics/data.json';
-import {FriendList} from './FriendList/FriendList';
-import friends from './FriendList/friends.json';
+import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
-import transactions from './TransactionHistory/transactions.json';
+
+import user from './Data/user.json';
+import data from './Data/data.json';
+import friends from './Data/friends.json';
+import transactions from './Data/transactions.json';
 
 export const App = () => {
   return (
@@ -21,9 +22,7 @@ export const App = () => {
           tag={user.tag}
           location={user.location}
           avatar={user.avatar}
-          followers={user.stats.followers}
-          views={user.stats.views}
-          likes={user.stats.likes}
+          stats={user.stats}
         />
       </Section>
 
@@ -40,6 +39,4 @@ export const App = () => {
       </Section>
     </div>
   );
-
-  
 };
